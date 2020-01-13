@@ -1,0 +1,44 @@
+@import url(reset.css);
+.heading {
+  font-family: Rubik, serif;
+  font-size: 50px;
+  font-weight: 700;
+  background: #F54C5B;
+
+}
+.image-container { 
+  height: 1080px;
+  width: 1440px;
+}
+
+.hero-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.menu-container {
+  font-family: Karla, serif;
+  font-size: 25px;
+  background: #F54C5B;
+  background-size: 30px;
+}
+
+.bio {
+  font-family: Rubik, sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.heading h2 {
+  font-family: Rubik, serif;
+  font-size: 25px;
+}
+
+.footer-container {
+  font-family: Karla, serif;
+  font-size: 25px;
+  font-variant-position: center;
+  background: #F54C5B;
+  background-size: 200px;
+
+}
