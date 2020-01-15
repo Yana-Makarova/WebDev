@@ -1,0 +1,95 @@
+@import url(reset.css);
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.heading h1 {
+  height: 60px;
+  left: 0px;
+  top: 0px;
+  padding: 0px 20px;
+  margin: 0;
+
+  background: #FE1A19;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.recipe {
+  width: 400px;
+  height: 800px;
+  left: 70px;
+  top: 112px;
+  display: inline-block;
+
+  border: 5px solid #E5E000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+
+  margin: 52px 10px 0 30px;
+
+  padding: 20px;
+}
+
+.recipe__title {
+  height: 23px;
+  left: 103px;
+  top: 145px;
+
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.ingredient-title {
+  margin-bottom: -15px;
+  font-weight: normal;
+}
+
+.ingredients-list li {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  list-style-type: none;
+}
+.footer-container {
+   background: #FE1A19;
+   overflow: auto;
+   padding: 20px;
+}
+
+.copyright{
+  font-family: Helvetica;
+  font-size: 20px;
+  align-items: center;
+  color: #FFFFFF;
+  float: left;
+}
+.back {
+  font-family: Helvetica;
+  font-size: 20px;
+  align-items: center;
+  float: right;
+  color: #FFFFFF;
+}
+.main {
+  margin-bottom: 50px;
+
+}
