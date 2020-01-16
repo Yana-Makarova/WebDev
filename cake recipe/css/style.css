@@ -58,10 +58,13 @@ body {
 }
 
 .ingredient-title {
-  margin-bottom: -15px;
   font-weight: normal;
+  margin-bottom: 0;
 }
 
+.ingredients-list {
+  margin-top: 0;
+}
 .ingredients-list li {
   font-style: normal;
   font-weight: normal;
